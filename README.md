@@ -1,2 +1,2 @@
 # AluraGeek
-frobt del E-commerce con Javascript y sass
+front del E-commerce con Javascript y sass
