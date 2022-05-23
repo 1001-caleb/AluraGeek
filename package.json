@@ -1,0 +1,23 @@
+{
+  "name": "alurageek",
+  "version": "1.0.0",
+  "description": "front del E-commerce con Javascript y sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1001-caleb/AluraGeek.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1001-caleb/AluraGeek/issues"
+  },
+  "homepage": "https://github.com/1001-caleb/AluraGeek#readme",
+  "devDependencies": {
+    "sass": "^1.52.1"
+  }
+}

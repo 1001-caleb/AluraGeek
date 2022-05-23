@@ -1,0 +1,42 @@
+@use "reset";
+@use "variables";
+
+.nav{
+    padding: 5px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: variables.$blanco;
+    &__container{
+        background-color: variables.$blanco;
+        display: flex;
+        align-items: center;
+        gap: 48px;
+    }
+    &__logo{
+        background-color: variables.$blanco;
+    }
+    &__cta{
+        background-color: variables.$blanco;
+        text-decoration: none;
+        color: variables.$azul;
+        font-size: 1.6rem;
+        border: 1px solid variables.$azul;
+        padding: 10px 70px;
+    }
+}
+
+.input__container{
+    background-color: variables.$blanco;
+    &-buscar{
+        background-color: variables.$fondo;
+        width: 393px;
+        height: 40px;
+        font-size: 1.6rem;
+        border-radius: 20px;
+        border: none;
+        &:focus{
+            outline: 0;
+        }
+    }
+}

@@ -1,0 +1,8 @@
+@use "reset";
+@use "navbar";
+@use "variables";
+
+*{
+    background-color: variables.$fondo;
+}
+
