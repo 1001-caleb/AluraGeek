@@ -12,6 +12,7 @@
   align-items: center;
   justify-content: space-around;
   background-color: white;
+  height: 115px;
 }
 .nav__container {
   background-color: white;
@@ -22,6 +23,11 @@
 .nav__logo {
   background-color: white;
 }
+@media (max-width: 365px) {
+  .nav__logo {
+    height: 28px;
+  }
+}
 .nav__cta {
   background-color: white;
   text-decoration: none;
@@ -30,11 +36,22 @@
   border: 1px solid #2A7AE4;
   padding: 10px 70px;
 }
+@media (max-width: 425px) {
+  .nav__cta {
+    font-size: 1.4rem;
+    padding: 5px 45px;
+  }
+}
+@media (max-width: 425px) {
+  .nav {
+    gap: 40px;
+  }
+}
 
 .input__container {
   background-color: white;
 }
-.input__container-buscar {
+.input__container--buscar {
   background-color: #F5F5F5;
   width: 393px;
   height: 40px;
@@ -42,8 +59,13 @@
   border-radius: 20px;
   border: none;
 }
-.input__container-buscar:focus {
+.input__container--buscar:focus {
   outline: 0;
+}
+@media (max-width: 425px) {
+  .input__container {
+    display: none;
+  }
 }
 
 * {
