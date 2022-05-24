@@ -126,7 +126,7 @@
 @media (max-width: 425px) {
   .header__textos {
     top: 180px;
-    padding: 10px 15px;
+    padding: 10px 10px;
   }
 }
 @media (max-width: 768px) {
@@ -137,6 +137,11 @@
 @media (max-width: 1024px) {
   .header__textos {
     padding: 10px 50px;
+  }
+}
+@media (max-width: 1440px) {
+  .header__textos {
+    padding: 10px 100px;
   }
 }
 
