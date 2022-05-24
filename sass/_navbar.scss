@@ -2,7 +2,7 @@
 @use "variables";
 
 .nav{
-    
+    background-color: variables.$blanco;
     display: flex;
     align-items: center;
     justify-content: space-around;
