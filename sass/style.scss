@@ -2,7 +2,7 @@
 @use "navbar";
 @use "variables";
 @use "banner";
-*{
+body{
     background-color: variables.$fondo;
 }
 

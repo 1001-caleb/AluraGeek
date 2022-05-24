@@ -2,26 +2,26 @@
 @use "variables";
 
 .nav{
-    padding: 5px 50px;
+    
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: variables.$blanco;
+    
     height: 115px;
     &__container{
-        background-color: variables.$blanco;
+      
         display: flex;
         align-items: center;
         gap: 48px;
     }
     &__logo{
-        background-color: variables.$blanco;
+        
         @media (max-width:365px){
             height: 28px;
         }
     }
     &__cta{
-        background-color: variables.$blanco;
+        
         text-decoration: none;
         color: variables.$azul;
         font-size: 1.6rem;
@@ -38,7 +38,7 @@
 }
 
 .input__container{
-    background-color: variables.$blanco;
+    
     &--buscar{
         background-color: variables.$fondo;
         width: 393px;

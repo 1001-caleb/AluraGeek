@@ -1,16 +1,65 @@
+@use "variables";
+
 .header{
 
 &__container{
-    background-image:url(https://github.com/mauri-rivera/Challenge-ONE-Ecommerce/blob/master/img/Hero.png?raw=true); 
+    background-image:url(../img/Hero.png); 
     width: 100%;
     height: 352px;
     background-repeat: no-repeat;
     background-size: cover;
     @media (max-width:768px){
-        background-image:url(https://github.com/mauri-rivera/Challenge-ONE-Ecommerce/blob/master/img/Hero2.png?raw=true);
-    
+        background-image:url(../img/Hero2.png);
+        height: 352px;
+    }
+    @media (max-width:425px){
+        background-image:url(../img/Hero3.png);
+        height: 192px;
     }
 }
 
+&__textos{
+    position: absolute;
+    top: 250px;
+    padding: 10px 280px;
+    color: variables.$blanco;
+    &--titulo{
+        font-size: 5.2rem;
+        margin-bottom: 16px;
+        @media (max-width:425px){
+            font-size: 2.2rem;
+            margin-bottom: 8px;
+        }
+    }
+    &--parrafo{
+        font-size: 2.2rem;
+        margin-bottom: 32px;
+        @media (max-width:425px){
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+    }
+    &--cta{
+       font-size: 1.6rem;
+       text-decoration: none;
+       color: variables.$blanco;
+       background-color: variables.$azul; 
+        padding: 16px;
+        @media (max-width:425px){
+            font-size: 1.4rem;
+            padding: 12px;
+        }
+    }
+    @media (max-width:425px){
+        top: 180px;
+        padding: 10px 15px;
+    }
+    @media (max-width:768px){
+        padding: 10px 25px;
+    }
+    @media (max-width:1024px){
+        padding: 10px 50px;
+    }
+}
 
 }
