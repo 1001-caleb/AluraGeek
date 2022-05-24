@@ -1,7 +1,7 @@
 @use "reset";
 @use "navbar";
 @use "variables";
-
+@use "banner";
 *{
     background-color: variables.$fondo;
 }
