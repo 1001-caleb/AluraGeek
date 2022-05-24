@@ -123,15 +123,9 @@
     padding: 12px;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 1440px) {
   .header__textos {
-    top: 180px;
-    padding: 10px 10px;
-  }
-}
-@media (max-width: 768px) {
-  .header__textos {
-    padding: 10px 25px;
+    padding: 10px 100px;
   }
 }
 @media (max-width: 1024px) {
@@ -139,9 +133,15 @@
     padding: 10px 50px;
   }
 }
-@media (max-width: 1440px) {
+@media (max-width: 768px) {
   .header__textos {
-    padding: 10px 100px;
+    padding: 10px 25px;
+  }
+}
+@media (max-width: 425px) {
+  .header__textos {
+    top: 180px;
+    padding: 10px 10px;
   }
 }
 
