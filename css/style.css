@@ -145,6 +145,12 @@
     padding: 10px 10px;
   }
 }
+@media (max-width: 425px) {
+  .header__textos {
+    top: 180px;
+    padding: 10px 20px;
+  }
+}
 
 .productos1 {
   margin-top: 5rem;
@@ -172,6 +178,21 @@
   color: #2A7AE4;
   font-weight: 700;
   margin-top: 8px;
+}
+@media (max-width: 1440px) {
+  .productos1 {
+    padding: 10px 100px;
+  }
+}
+@media (max-width: 1024px) {
+  .productos1 {
+    padding: 10px 50px;
+  }
+}
+@media (max-width: 768px) {
+  .productos1 {
+    padding: 10px 25px;
+  }
 }
 
 body {
