@@ -146,6 +146,34 @@
   }
 }
 
+.productos1 {
+  margin-top: 5rem;
+  padding: 10px 270px;
+}
+.productos1__titulo {
+  font-size: 3.2rem;
+  margin-bottom: 2rem;
+  color: #464646;
+}
+.productos1__card1--nombre {
+  font-size: 1.4rem;
+  color: #464646;
+  margin-top: 8px;
+}
+.productos1__card1--precio {
+  font-size: 1.6rem;
+  color: #464646;
+  font-weight: 700;
+  margin-top: 8px;
+}
+.productos1__card1--ver {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #2A7AE4;
+  font-weight: 700;
+  margin-top: 8px;
+}
+
 body {
   background-color: #F5F5F5;
 }
