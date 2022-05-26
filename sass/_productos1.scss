@@ -3,30 +3,49 @@
 .productos1{
     margin-top: 5rem;
     padding: 10px 270px;
+   &__contenedor{
+    display: grid;
+    gap: 1.6rem;
+    grid-template-columns: repeat(auto-fill, minmax(176px, 1fr));
+
+   }
+
     &__titulo{
         font-size: 3.2rem;
         margin-bottom: 2rem;
         color: variables.$gris;
+        @media (max-width:768px){
+            font-size: 2.2rem;
+        }
     }
     &__card1{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 176px;
+        height: 252px;
+        
         &--nombre{
             font-size: 1.4rem;
             color: variables.$gris;
-            margin-top: 8px;
         }
         &--precio{
             font-size: 1.6rem;
             color: variables.$gris;
             font-weight: 700;
-            margin-top: 8px;
         }
         &--ver{
             text-decoration: none;
             font-size: 1.6rem;
             color: variables.$azul;
-            font-weight: 700;
-            margin-top: 8px;
+            font-weight: 700; 
         }
+        @media (max-width:425px){
+            width: 156px;
+            height: 249px;
+            
+        }
+
     }
     @media (max-width:1440px){
         padding: 10px 100px;
@@ -36,5 +55,14 @@
     }
     @media (max-width:768px){
         padding: 10px 25px;
+
+        &__contenedor--img{
+            width: 164px;
+            height: 174px;
+        }
+        &__card1--img{
+            object-fit: cover;
+            overflow: hidden;  
+        }
     }
 }

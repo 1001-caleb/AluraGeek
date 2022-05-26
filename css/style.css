@@ -156,28 +156,48 @@
   margin-top: 5rem;
   padding: 10px 270px;
 }
+.productos1__contenedor {
+  display: grid;
+  gap: 1.6rem;
+  grid-template-columns: repeat(auto-fill, minmax(176px, 1fr));
+}
 .productos1__titulo {
   font-size: 3.2rem;
   margin-bottom: 2rem;
   color: #464646;
 }
+@media (max-width: 768px) {
+  .productos1__titulo {
+    font-size: 2.2rem;
+  }
+}
+.productos1__card1 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 176px;
+  height: 252px;
+}
 .productos1__card1--nombre {
   font-size: 1.4rem;
   color: #464646;
-  margin-top: 8px;
 }
 .productos1__card1--precio {
   font-size: 1.6rem;
   color: #464646;
   font-weight: 700;
-  margin-top: 8px;
 }
 .productos1__card1--ver {
   text-decoration: none;
   font-size: 1.6rem;
   color: #2A7AE4;
   font-weight: 700;
-  margin-top: 8px;
+}
+@media (max-width: 425px) {
+  .productos1__card1 {
+    width: 156px;
+    height: 249px;
+  }
 }
 @media (max-width: 1440px) {
   .productos1 {
@@ -192,6 +212,14 @@
 @media (max-width: 768px) {
   .productos1 {
     padding: 10px 25px;
+  }
+  .productos1__contenedor--img {
+    width: 164px;
+    height: 174px;
+  }
+  .productos1__card1--img {
+    object-fit: cover;
+    overflow: hidden;
   }
 }
 
