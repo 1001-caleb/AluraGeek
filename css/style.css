@@ -157,9 +157,16 @@
   padding: 10px 270px;
 }
 .productos1__contenedor {
-  display: grid;
-  gap: 1.6rem;
-  grid-template-columns: repeat(auto-fill, minmax(176px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: space-between;
+}
+@media (max-width: 420px) {
+  .productos1__contenedor--img {
+    width: 156px;
+    height: 174px;
+  }
 }
 .productos1__titulo {
   font-size: 3.2rem;
@@ -195,8 +202,16 @@
 }
 @media (max-width: 425px) {
   .productos1__card1 {
-    width: 156px;
+    width: 126px;
+  }
+  .productos1__card1 .productos1__contenedor--img {
+    width: 126px;
     height: 249px;
+  }
+  .productos1__card1--img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
   }
 }
 @media (max-width: 1440px) {
@@ -212,6 +227,9 @@
 @media (max-width: 768px) {
   .productos1 {
     padding: 10px 25px;
+  }
+  .productos1 .productos1__card1:nth-child(n+5) {
+    display: none;
   }
   .productos1__contenedor--img {
     width: 164px;

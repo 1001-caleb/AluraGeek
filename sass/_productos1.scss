@@ -4,10 +4,17 @@
     margin-top: 5rem;
     padding: 10px 270px;
    &__contenedor{
-    display: grid;
-    gap: 1.6rem;
-    grid-template-columns: repeat(auto-fill, minmax(176px, 1fr));
+   display: flex;
+   flex-wrap: wrap;
+   gap: 8px;
+   justify-content: space-between;
+    @media (max-width:420px){
+        &--img{
+            width: 156px;
+            height: 174px;
+        }
 
+    }
    }
 
     &__titulo{
@@ -41,9 +48,17 @@
             font-weight: 700; 
         }
         @media (max-width:425px){
-            width: 156px;
-            height: 249px;
-            
+            width: 126px;
+
+            .productos1__contenedor--img{
+                width: 126px;
+                height: 249px;
+            }
+            &--img{
+                object-fit: cover;
+                width:100%;
+                height:100%;
+            }
         }
 
     }
@@ -55,7 +70,9 @@
     }
     @media (max-width:768px){
         padding: 10px 25px;
-
+        .productos1__card1:nth-child(n +5){
+            display: none;
+        }
         &__contenedor--img{
             width: 164px;
             height: 174px;
