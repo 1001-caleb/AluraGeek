@@ -1,8 +1,10 @@
 @use "reset";
-@use "navbar";
 @use "variables";
+@use "navbar";
 @use "banner";
 @use "productos1";
+@use "footer";
+
 body{
     background-color: variables.$fondo;
 }
