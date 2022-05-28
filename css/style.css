@@ -257,7 +257,7 @@
   }
 }
 .footer__container {
-  padding: 64px 80px;
+  padding: 64px 270px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
@@ -309,6 +309,16 @@
   border: none;
   border-radius: 4px;
   color: white;
+}
+@media (max-width: 1440px) {
+  .footer__container {
+    padding: 64px 90px;
+  }
+}
+@media (max-width: 1024px) {
+  .footer__container {
+    padding: 64px 60px;
+  }
 }
 @media (max-width: 425px) {
   .footer__container {
