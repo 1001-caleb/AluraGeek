@@ -150,12 +150,6 @@
     padding: 10px 10px;
   }
 }
-@media (max-width: 425px) {
-  .header__textos {
-    top: 180px;
-    padding: 10px 20px;
-  }
-}
 
 .productos1 {
   margin-top: 5rem;
@@ -252,9 +246,14 @@
   height: 368px;
   background-color: #EAF2FD;
 }
+@media (max-width: 768px) {
+  .footer {
+    height: 550px;
+  }
+}
 @media (max-width: 425px) {
   .footer {
-    height: 556px;
+    height: 656px;
   }
 }
 .footer__container {
@@ -330,6 +329,30 @@
   }
   .footer__container--logo {
     margin: 0 auto;
+  }
+}
+@media (max-width: 375px) {
+  .footer__container--nombre {
+    width: 290px;
+    height: 56px;
+  }
+  .footer__container--mensaje {
+    width: 290px;
+    height: 56px;
+  }
+}
+@media (max-width: 320px) {
+  .footer__container--nombre {
+    width: 250px;
+    height: 56px;
+  }
+  .footer__container--mensaje {
+    width: 250px;
+    height: 56px;
+  }
+  .footer__container--submit {
+    width: 144px;
+    height: 43px;
   }
 }
 
