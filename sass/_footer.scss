@@ -53,6 +53,9 @@
             margin-bottom: 16px;
             border-radius: 4px;
             border: none;
+            &:focus{
+                outline-color: variables.$azul;
+            }
         }
 
         &--mensaje {
@@ -63,6 +66,9 @@
             margin-bottom: 6px;
             border-radius: 4px;
             border: none;
+            &:focus{
+                outline-color: variables.$azul;
+            }
         }
 
         &--submit {

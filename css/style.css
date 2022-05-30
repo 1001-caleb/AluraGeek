@@ -291,6 +291,9 @@
   border-radius: 4px;
   border: none;
 }
+.footer__container--nombre:focus {
+  outline-color: #2A7AE4;
+}
 .footer__container--mensaje {
   width: 460px;
   height: 36px;
@@ -299,6 +302,9 @@
   margin-bottom: 6px;
   border-radius: 4px;
   border: none;
+}
+.footer__container--mensaje:focus {
+  outline-color: #2A7AE4;
 }
 .footer__container--submit {
   font-size: 1.6rem;
