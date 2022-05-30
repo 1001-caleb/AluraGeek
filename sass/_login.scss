@@ -1,0 +1,41 @@
+@use "variables";
+
+.login {
+    margin-top: 115px;
+    display: flex;
+    flex-direction: column;
+    width: 423px;
+    height: 291px;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+    margin: 0 auto;
+    margin-top: 115px;
+
+    &__titulo {
+        font-size: 1.8rem;
+        color: variables.$gris;
+        font-weight: 700;
+    }
+
+    &__inputs {
+        width: 423px;
+        height: 50px;
+        border-radius: 4px;
+        border: none;
+        font-size: 1.6rem;
+        padding: 12px 18px;
+        &:focus{
+            outline-color: variables.$azul;
+        }
+    }
+
+    &__submit {
+        background-color: variables.$azul;
+        border: none;
+        color: variables.$blanco;
+        width: 423px;
+        height: 50px;
+        font-size: 1.6rem;
+    }
+}
