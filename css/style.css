@@ -442,6 +442,8 @@
   margin-top: 115px;
   padding: 70px 280px;
   display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
   justify-content: space-between;
 }
 .top__titulo {
@@ -455,6 +457,34 @@
   padding: 16px;
   background-color: #2A7AE4;
   color: white;
+}
+@media (max-width: 1440px) {
+  .top {
+    padding: 70px 170px;
+  }
+}
+@media (max-width: 1024px) {
+  .top {
+    padding: 70px 60px;
+  }
+  .top__titulo {
+    font-size: 2.5rem;
+  }
+  .top__cta {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 425px) {
+  .top {
+    padding: 70px 35px;
+  }
+  .top__titulo {
+    font-size: 2rem;
+  }
+  .top__cta {
+    font-size: 1.4rem;
+    padding: 12px;
+  }
 }
 
 body {
