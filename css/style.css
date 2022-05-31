@@ -241,11 +241,9 @@
 }
 
 .footer {
-  position: absolute;
   width: 100%;
   height: 368px;
   background-color: #EAF2FD;
-  bottom: 0;
 }
 @media (max-width: 768px) {
   .footer {
@@ -401,6 +399,12 @@
 .login__inputs:focus {
   outline-color: #2A7AE4;
 }
+@media (max-width: 425px) {
+  .login__inputs {
+    width: 275px;
+    height: 41px;
+  }
+}
 .login__submit {
   background-color: #2A7AE4;
   border: none;
@@ -408,6 +412,30 @@
   width: 423px;
   height: 50px;
   font-size: 1.6rem;
+}
+@media (max-width: 425px) {
+  .login__submit {
+    width: 275px;
+    height: 41px;
+  }
+}
+@media (max-width: 435px) {
+  .login {
+    width: 275px;
+    height: 189px;
+    margin-bottom: 60px;
+    margin-top: 150px;
+  }
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+}
+@media (max-width: 425px) {
+  .bottom {
+    position: relative;
+  }
 }
 
 body {
