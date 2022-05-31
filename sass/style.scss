@@ -6,6 +6,7 @@
 @use "footer";
 @use "login";
 @use "productosPage";
+@use "agregarProducto";
 body {
     background-color: variables.$fondo;
 }

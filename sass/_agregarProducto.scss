@@ -1,0 +1,11 @@
+@use "variables";
+
+.AgregarProductos{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 215px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
