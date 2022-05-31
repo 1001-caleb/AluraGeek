@@ -440,6 +440,21 @@
 
 .top {
   margin-top: 115px;
+  padding: 70px 280px;
+  display: flex;
+  justify-content: space-between;
+}
+.top__titulo {
+  font-size: 3.2rem;
+  color: #464646;
+  font-weight: 700;
+}
+.top__cta {
+  text-decoration: none;
+  font-size: 1.6rem;
+  padding: 16px;
+  background-color: #2A7AE4;
+  color: white;
 }
 
 body {
