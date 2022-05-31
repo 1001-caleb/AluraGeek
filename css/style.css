@@ -501,6 +501,11 @@
   color: #464646;
   font-weight: 700;
 }
+@media (max-width: 425px) {
+  .AgregarProductos__titulo {
+    font-size: 2.2rem;
+  }
+}
 .AgregarProductos__inputs {
   width: 400px;
   height: 35px;
@@ -511,6 +516,12 @@
 .AgregarProductos__inputs:focus {
   outline-color: #2A7AE4;
 }
+@media (max-width: 425px) {
+  .AgregarProductos__inputs {
+    width: 275px;
+    height: 41px;
+  }
+}
 .AgregarProductos__submit {
   background-color: #2A7AE4;
   border: none;
@@ -518,6 +529,19 @@
   width: 423px;
   height: 50px;
   font-size: 1.6rem;
+}
+@media (max-width: 425px) {
+  .AgregarProductos__submit {
+    width: 275px;
+    height: 41px;
+  }
+}
+@media (max-width: 425px) {
+  .AgregarProductos {
+    width: 300px;
+    height: 400px;
+    margin-top: 115px;
+  }
 }
 
 body {
