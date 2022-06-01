@@ -283,6 +283,10 @@
   color: #464646;
   text-decoration: none;
 }
+.footer__container--cta:hover {
+  transform: scale(1.1);
+  transition: transform 0.1s ease-in-out;
+}
 .footer__container--form {
   display: flex;
   flex-direction: column;
@@ -326,6 +330,9 @@
   border: none;
   border-radius: 4px;
   color: white;
+}
+.footer__container--submit:hover {
+  opacity: 0.7;
 }
 @media (max-width: 1440px) {
   .footer__container {
