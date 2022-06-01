@@ -34,6 +34,12 @@
         border: 1px solid variables.$azul;
         padding: 10px 70px;
 
+        &:hover {
+            background-color: variables.$azul;
+            color: variables.$blanco;
+            outline: variables.$blanco;
+        }
+
         @media (max-width:768px) {
             font-size: 1.4rem;
             padding: 5px 45px;
@@ -70,45 +76,3 @@
         display: none;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
